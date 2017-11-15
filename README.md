@@ -8,22 +8,14 @@ Source code for tensor recurrent neural network (RNN), improving vanilla RNN w.r
 3. dimension reduction with tensor network model
 
 
-## experiments
-Baseline and tensor RNN models. Baselines include
+- reader.py 
+read the data into train/valid/test datasets, normalize the data if needed
 
-- RNN: vanilla RNN
+- model.py
+seq2seq model for sequence prediction
 
-- LSTM: vanilla LSTM
+- trnn.py
+tensor-train lstm cell and corresponding tensor train contraction
 
-- PLST: phased LSTM
-
-- MRNN: high-order matrix RNN with first order interaction
-
-- TRNN: tensor RNN
-
-- MTRNN: multi-resolution tensor RNN
-
-## notebook
-
-Notebooks for loading and plotting results
-
+- trnn_imply.py
+forward step in tensor-train rnn, feed previous predictions as input
