@@ -5,13 +5,13 @@
 [![Dependency Status](https://gemnasium.com/voxpelli/node-github-publish.svg)](https://gemnasium.com/voxpelli/node-github-publish)
 
 Clean code repo for tensor train recurrent neural network, implemented in Tensorflow.
-See details in paper [Long-Term Forecasting with Tensor Train RNNs](https://arxiv.org/abs/1711.00073)
+See details in our paper [Long-Term Forecasting with Tensor Train RNNs](https://arxiv.org/abs/1711.00073)
 
 ![](tlstm.png "Model Architecture for Tensor Train RNNs")
 
 # Getting Started 
 
-**install prerequisite**
+**install prerequisites**
 
 * tensorflow >= r1.6
 * Python >=3.0
@@ -58,3 +58,16 @@ tensor-train lstm cell and corresponding tensor train contraction
 
 * **trnn_imply.py**
 forward step in tensor-train rnn, feed previous predictions as input
+
+## Citation
+
+If you think the repo is useful, please cite our work at 
+
+```
+@article{yu2017long,
+  title={Long-term forecasting using tensor-train RNNs},
+  author={Yu, Rose and Zheng, Stephan and Anandkumar, Anima and Yue, Yisong},
+  journal={arXiv preprint arXiv:1711.00073},
+  year={2017}
+}
+```
