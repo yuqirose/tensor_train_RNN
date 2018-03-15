@@ -64,7 +64,7 @@ forward step in tensor-train rnn, feed previous predictions as input
 
 ## Citation
 
-If you think the repo is useful, please cite our work at 
+If you think the repo is useful, we kindly ask you to cite our work at 
 
 ```
 @article{yu2017long,
