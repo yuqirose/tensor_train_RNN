@@ -37,13 +37,16 @@ from trnn_imply import tensor_rnn_with_feed_prev
 
 ## Running the test
 
+Run the Jupyter notebook
+
+* `jupyter notebook test_trnn.pynb`
+
 A simple example of using `TensorTrainLSTM` by 
 
 * loading a set of `sim` sequences
 * building a tensor train Seq2Seq model
 * making long-term predictions
 
-* `jupyter notebook test_trnn.pynb`
 
 ## Directory
 
