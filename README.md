@@ -1,10 +1,10 @@
-# Tensor Train Recurrent Neural Network 
+# High-Order Tensor Recurrent Neural Network 
 
 [![Build Status](https://travis-ci.org/voxpelli/node-github-publish.svg?branch=master)](https://travis-ci.org/voxpelli/node-github-publish)
 [![Coverage Status](https://coveralls.io/repos/voxpelli/node-github-publish/badge.svg)](https://coveralls.io/r/voxpelli/node-github-publish)
 [![Dependency Status](https://gemnasium.com/voxpelli/node-github-publish.svg)](https://gemnasium.com/voxpelli/node-github-publish)
 
-Clean code repo for tensor train recurrent neural network, implemented in Tensorflow.
+Clean code repo for Higher-Order Tensor recurrent neural network (HOT-RNN), implemented in Tensorflow.
 See details in our paper [Long-Term Forecasting with Tensor Train RNNs](https://arxiv.org/abs/1711.00073)
 
 ![](tlstm.png "Model Architecture for Tensor Train RNNs")
