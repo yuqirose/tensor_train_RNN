@@ -1,4 +1,4 @@
-# High-Order Tensor Recurrent Neural Network 
+# Higher-Order Tensor Recurrent Neural Network 
 
 [![Build Status](https://travis-ci.org/voxpelli/node-github-publish.svg?branch=master)](https://travis-ci.org/voxpelli/node-github-publish)
 [![Coverage Status](https://coveralls.io/repos/voxpelli/node-github-publish/badge.svg)](https://coveralls.io/r/voxpelli/node-github-publish)
